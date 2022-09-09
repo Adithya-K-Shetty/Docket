@@ -70,7 +70,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         // google-services.json file
         GoogleSignInOptions googleSignInOptions=new GoogleSignInOptions.Builder(
                 GoogleSignInOptions.DEFAULT_SIGN_IN
-        ).requestIdToken("441443608933-nrps0nd18j95ugotf1mei7cc5elg6d5t.apps.googleusercontent.com")
+        ).requestIdToken("<<Request ID Token>>")
                 .requestEmail()
                 .build();
         // Initialize sign in client
